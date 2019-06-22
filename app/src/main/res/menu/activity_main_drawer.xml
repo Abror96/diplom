@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Профиль">
+        <menu>
+            <item
+                android:id="@+id/nav_results"
+                android:icon="@drawable/ic_poll_black_24dp"
+                android:title="Результаты тестов" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Выйти" />
+        </menu>
+    </item>
+
+    <item android:title="Информация">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="О создателе приложения" />
+        </menu>
+    </item>
+
+</menu>
